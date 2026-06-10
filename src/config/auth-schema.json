@@ -1,0 +1,28 @@
+{
+  "login": {
+    "title": "Welcome Back",
+    "subtitle": "Sign in to your Funds24 account",
+    "ctaText": "Sign In",
+    "footerText": "Don't have an account?",
+    "footerActionText": "Create Account",
+    "fields": [
+      { "id": "email", "type": "email", "label": "Email Address", "placeholder": "Email address", "required": true },
+      { "id": "password", "type": "password", "label": "Password", "placeholder": "Password", "required": true }
+    ]
+  },
+  "signup": {
+    "title": "Get Started",
+    "subtitle": "Create your account in minutes",
+    "ctaText": "Continue",
+    "footerText": "Already have an account?",
+    "footerActionText": "Sign In",
+    "fields": [
+      { "id": "firstName", "type": "text", "label": "First Name", "placeholder": "First name", "required": true },
+      { "id": "lastName", "type": "text", "label": "Last Name", "placeholder": "Last name", "required": true },
+      { "id": "email", "type": "email", "label": "Email Address", "placeholder": "Email address", "required": true },
+      { "id": "phone", "type": "tel", "label": "Phone Number", "placeholder": "Phone number", "required": false },
+      { "id": "password", "type": "password", "label": "Password", "placeholder": "Password", "required": true },
+      { "id": "confirmPassword", "type": "password", "label": "Confirm Password", "placeholder": "Confirm password", "required": true }
+    ]
+  }
+}
