@@ -24,7 +24,7 @@ export default function Home() {
           {/* Left Copy */}
           <div className="flex-1 space-y-6 max-w-xl text-left">
 
-            <h1 className="text-5xl lg:text-6xl font-semibold tracking-tight leading-tight text-text-main">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight leading-tight text-text-main">
               Fast &amp; Secure <br />
               Financial Services <br />
               <span className="text-primary font-serif-600">

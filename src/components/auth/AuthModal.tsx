@@ -46,7 +46,7 @@ export default function AuthModal({ isOpen, onClose, initialMode }: AuthModalPro
       />
 
       {/* Modal Container */}
-      <div className="relative w-full max-w-5xl rounded-3xl overflow-hidden glass-panel bg-white shadow-2xl flex flex-col md:flex-row min-h-[600px] z-10 animate-fade-in-up">
+      <div className="relative w-full max-w-5xl max-h-[90vh] md:max-h-none overflow-y-auto md:overflow-visible rounded-3xl glass-panel bg-white shadow-2xl flex flex-col md:flex-row min-h-[500px] md:min-h-[600px] z-10 animate-fade-in-up">
         
         {/* Close Button (Icon) */}
         <button

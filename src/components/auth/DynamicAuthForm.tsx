@@ -83,7 +83,7 @@ export default function DynamicAuthForm({
 
   return (
     <div
-      className={`w-full md:w-full p-8 sm:p-10 flex flex-col justify-center text-left bg-white ${
+      className={`w-full md:w-full p-6 sm:p-10 flex flex-col justify-center text-left bg-white ${
         shakeId ? "animate-[shake_0.45s_ease-in-out]" : ""
       }`}
     >
@@ -107,7 +107,7 @@ export default function DynamicAuthForm({
             const hasErrorLast = lastNameField ? errors["lastName"] : undefined;
 
             return (
-              <div key="name-row" className="grid grid-cols-2 gap-3.5">
+              <div key="name-row" className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
                 <Input
                   id="firstName"
                   label={field.label}

@@ -84,13 +84,11 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${lora.variable} h-full antialiased`}
     >
-      <head>
+      <body className="min-h-full flex flex-col bg-background text-foreground font-sans">
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
         />
-      </head>
-      <body className="min-h-full flex flex-col bg-background text-foreground font-sans">
         <main className="flex-1 flex flex-col">{children}</main>
         <Footer />
       </body>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AuthSideBanner() {
   return (
-    <div className="w-full md:w-5/12 bg-primary p-8 sm:p-10 text-white flex flex-col justify-between relative overflow-hidden shrink-0 border-r border-slate-800">
+    <div className="hidden md:flex md:w-5/12 bg-primary p-8 sm:p-10 text-white flex-col justify-between relative overflow-hidden shrink-0 border-r border-slate-800">
       <div className="space-y-8 z-10 text-left">
         {/* Logo */}
         <div className="flex items-center gap-2.5">

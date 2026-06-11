@@ -15,7 +15,7 @@ export default function LoginView() {
 
   return (
     <section className="flex-1 flex items-center justify-center p-4 sm:p-6 md:p-10 bg-zinc-50 min-h-[calc(100vh-80px)]">
-      <div className="w-full max-w-5xl rounded-3xl overflow-hidden glass-panel bg-white shadow-2xl flex flex-col md:flex-row min-h-[600px] animate-fade-in-up">
+      <div className="w-full max-w-5xl rounded-3xl overflow-hidden glass-panel bg-white shadow-2xl flex flex-col md:flex-row min-h-[500px] md:min-h-[600px] animate-fade-in-up">
         {submittedData ? (
           /* Success Screen */
           <div className="w-full h-full p-8 sm:p-10 flex flex-col justify-center text-left">
